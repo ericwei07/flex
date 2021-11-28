@@ -1,0 +1,72 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-flow: wrap;
+}
+.box {
+    height: 230px;
+    width: 230px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    margin: 4px;
+
+    /*float: left;*/
+}
+.dots {
+    height: 50px;
+    width: 50px;
+    background-color: #585858;
+    border-radius: 50px;
+    margin: 10px;
+}
+.column {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column5c {
+     flex-basis: 100%;
+     display: flex;
+     justify-content: center;
+ }
+.c {
+    align-self: center;
+}
+.br {
+    align-self: flex-end;
+}
+div:hover {
+    background-color: #cfc;
+}
+#dice1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dice2 {
+    display: flex;
+    justify-content: space-between;
+}
+#dice3 {
+    display: flex;
+    justify-content: space-between;
+}
+#dice4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#dice5 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#dice6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+#dice9 {
+    display: flex;
+    flex-wrap: wrap;
+}

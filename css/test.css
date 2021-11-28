@@ -1,0 +1,36 @@
+body{
+    font-size: 20px;
+    background-color: #FFFFE1;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    float: left
+}
+
+div {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+p {
+    color: #000058;
+    font-family: "Comic Sans MS";
+    font-size: 1em;
+    text-align: left;
+}
+
+h2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 200%;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    border-bottom: 1px
+    solid #000;
+    text-align: center;
+}
+

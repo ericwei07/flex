@@ -1,0 +1,118 @@
+html{
+    height:100%
+}
+.hp_body {
+    height: 100%;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../images/WeChat Image_20211120150851.jpg");
+    /*position: relative;*/
+    font-size: 11pt;
+    color:#414f57
+}
+.hp_wrapper{
+    /*position: relative;*/
+    height: 100%;
+    padding:80px;
+}
+.hp_main {
+    text-align: center;
+    /*position: relative;*/
+     max-width: 300px;
+    margin: 0 auto;
+    padding: 4.5em 3em 3em 3em;
+    background: rgb(255,255,255);
+    border-radius: 4px;
+    opacity: 0.8;
+}
+.hp_Avatar {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+}
+footer a {
+    color:#ffffff
+}
+ul {
+    list-style-type: none;
+
+}
+.hp_links li {
+    float: left;
+    padding: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hp_img {
+    height:150px;
+    width:150px;
+    border-radius: 150px;
+}
+.sp_body {
+    border :orange solid;
+    border-width: 3px 0 0 0;
+
+}
+.sp_position {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sp_left {
+    display: block;
+    width: 300px;
+    background-color: #FFFFE1;
+
+    margin: 0 20px 0 230px;
+    position: absolute;
+    top:0;
+    padding-bottom: 30px;
+}
+.sp_right {
+    display: block;
+    width: 700px;
+    margin-left: 570px;
+    background-color: #eee;
+    height: 100%;
+}
+.sp_bgo {
+    background-color: orange;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h3, p {
+    margin:0;
+}
+
+.sp_ul li{
+    padding: 7px;
+}
+.sp_img {
+    text-align: center;
+}
+.sp_img img {
+    width:100px;
+    height:100px;
+    border-radius: 5px;
+}
+.sp_prof h4 {
+    text-align: center;
+}
+.sp_prof span {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.sp_prof a {
+    padding: 20px;
+}
+html,body {
+    min-height: 100%;
+}
